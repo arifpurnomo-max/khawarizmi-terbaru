@@ -1,0 +1,2 @@
+bismillaaaaaaaah
+menyala abangku
