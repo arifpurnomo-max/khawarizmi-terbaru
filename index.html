@@ -647,7 +647,7 @@
           </div> 
 
           <!-- Swiper Pagination -->
-        <div class="swiper-pagination mt-6 flex justify-center"></div>
+        <div class="swiper-pagination produk-pagination mt-6 flex justify-center"></div>
         <style>
   .swiper-pagination-bullet {
     width: 10px;
@@ -857,7 +857,7 @@
           </div>
         <div class="swiper-button-next tim-next"></div>
         <div class="swiper-button-prev tim-prev"></div>
-        <!-- <div class="swiper-pagination tim-pagination"></div> -->
+        <div class="swiper-pagination tim-pagination mt-10 flex justify-center"></div>
       </div>
     </div>
   </section>
@@ -974,7 +974,7 @@
         prevEl: '.produk-prev',
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".produk-pagination", // Gunakan class spesifik
         clickable: true,
       },
       breakpoints: {
@@ -1001,7 +1001,7 @@
         prevEl: '.tim-prev',
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".tim-pagination", // Gunakan class spesifik
         clickable: true,
       },
       breakpoints: {

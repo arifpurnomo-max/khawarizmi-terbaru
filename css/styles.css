@@ -1318,3 +1318,37 @@ body,
   background: #23272f;
   opacity: 1;
 }
+
+/* Styling untuk pagination produk */
+.produk-pagination .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: #cbd5e0;
+  opacity: 0.5;
+  border-radius: 9999px;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+.produk-pagination .swiper-pagination-bullet-active {
+  background: #eea507;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+/* Styling untuk pagination tim */
+.tim-pagination .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background: #6b7280;
+  opacity: 0.4;
+  border-radius: 50%;
+  margin: 0 4px;
+  transition: all 0.3s ease;
+}
+
+.tim-pagination .swiper-pagination-bullet-active {
+  background: #f59e0b;
+  opacity: 1;
+  transform: scale(1.1);
+}
